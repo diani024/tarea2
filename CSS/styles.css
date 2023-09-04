@@ -1,0 +1,150 @@
+
+.titulo{
+    color:white;
+    
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.17;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+}
+
+.font
+{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.17;
+    font-family: 'Open Sans', 'Roboto', sans-serif; 
+    letter-spacing: 0.02em;
+}
+
+.font1
+{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.17;
+    font-family: 'Open Sans', 'Roboto', sans-serif; 
+    letter-spacing: 0.02em;
+}
+
+
+.header-link.current{
+    color: var(--accent-color);
+}
+
+.up{
+    color: black;
+}
+
+.up:hover {
+    color: rgba(12, 30, 224, 0.68);
+}
+
+.about_texts{
+    font-family: 'Raleway', sans-serif;
+}
+
+:root{
+    --primary-color: rgb(255,108,0);
+    --font-color: rgb(107, 94, 94);
+    --detail-color: rgb(255,255,255);
+    --inactive-color: rgb(157, 164, 189);
+}
+
+.body{
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+}
+.none{
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.aside{
+    background-color: var(--primary-color, blue);
+}
+
+.hero{
+    background-color:rgba(62,72,177,0.68);
+   
+}
+
+.hero2{
+    background-color: rgba(47, 48, 58, 1);
+}
+
+.about{
+    background-color:rgba(62,72,177,0.68);
+}
+
+.services{
+    background-color:rgba(177,62,142,0.68);
+}
+
+.rating{
+    background-color:rgba(62,72,177,0.68);
+}
+
+.team {
+    background-color:rgba(62,72,177,0.68);
+}
+
+.gallery{
+    background-color:rgba(177,96,62,0.68);
+}
+
+.contact{
+    background-color:rgba(177,62,142,0.68);
+}
+
+
+
+.aside_navigation .aside_link {
+    color: var (--font -color);
+}
+
+.aside_navigation .aside_link:hover {
+    color: var (--primary-color);
+}
+
+.hero_navigation .hero_link {
+    color: var(--detail-color);
+}
+
+.hero_navigation .hero_link:hover {
+    color: var(--primary-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.mainButton{
+    background: gray;
+    color: black;
+    cursor: pointed;
+}
+
+.mainButton:hover{
+    background-color: rgb(124, 85, 85);
+   
+}
+
+.mainButton:focus{
+    background-color: rgba(177,96,62,0.68);
+ 
+}
+
+.center{
+    text-align: center;
+}
+
